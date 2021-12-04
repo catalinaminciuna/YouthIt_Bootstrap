@@ -54,15 +54,15 @@ div.card:hover {
 }
 
 .review {
-    max-width: 950px;
-    margin:0 auto;
+    max-width: 1050px;
+    margin: 0 auto;
     padding: 3rem;
 }
 
 blockquote.border {
     position: relative; 
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     padding: 3rem 1.2rem;
     margin: 1rem auto 2rem;
 }
@@ -104,8 +104,8 @@ blockquote.quote {
     .card{
         margin: 0 !important;
     }
-    blockquote{
-        font-size: 20px;
+    blockquote {
+        font-size: 15px;
     }
 }
 
