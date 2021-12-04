@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagini/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>YouthIt</title>
+</head>
+
+<body class="bg-dark">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+            <a class="d-flex navbar-brand" href="index.html">
+                <img src="imagini/logo.png" alt="gantere" style="width: 26%;">
+                <h1>YouthIt</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="hamburger">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#desprenoi">Despre Noi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Servicii">Servicii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#beneficii">Beneficii</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#antrenori">Antrenori</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimoniale">Testimoniale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carusel de imagini-->
+    <div id="slide" class="carousel slide" data-bs-ride="carousel">
+        <!--Indicatorii de slide-uri-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#slide" data-bs-slide-to="4"></button>
+        </div>
+        <!--Imaginile-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagini/hero0.jpg" alt="Yoga" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Energie</h3>
+                    <p>Fiecare antrenament îți oferă doza maximă de energie.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagini/hero1.jpg" alt="Abdomene" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Voință</h3>
+                    <p>Fiecare antrenament te aduce mai aproape de imaginea pe care vrei s-o vezi în oglindă</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagini/hero2.jpg" alt="Multe gantere" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Diversitate</h3>
+                    <p>Fiecare antrenament e divers și provocator.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagini/hero3.jpg" alt="Femei cu gantere" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Pasiune</h3>
+                    <p>Fiecare antrenament te face să îndrăgești sportul.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="imagini/hero4.jpg" alt="Exerciții în pereche" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                    <h3>Atitudine</h3>
+                    <p>Fiecare antrenament îți oferă posibilitatea să înveți de la profesioniști.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <main>
+        <!--Secțiunea Despre Noi-->
+        <section class="container" id="desprenoi">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div>
+                        <h2>Despre Noi</h2>
+                    </div>
+                    <div class="text-white">
+                        <p>YouthIt promovează un mod sănătos de viață în rândul tinerilor și nu doar, motivându-i să
+                            învețe
+                            să-și mențină energia și aspectul sănătos pe tot parcursul vieții.</p>
+                        <p>Compania a fost înființată în 2010. În 11 ani de funcționare, am încercat să le oferim
+                            clienților
+                            posibilitatea de deveni cea mai bună versiune a lor. Sunt 11 ani de performanță și
+                            motivație!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <img src="imagini/aerobics.jpg" alt="Gantere albastre" class="img-fluid">
+                </div>
+            </div>
+        </section>
+        <!--Carduri cu servicii-->
+        <section class="container-fluid" id="Servicii">
+            <h2>Servicii</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-dark h-100">
+                        <img src="imagini/grup.jpg" alt="Grup de femei la sală" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h3 class="card-title pt-3 pb-5" style="color: #EF562E;">Antrenamente în grup:</h3>
+                            <div class="card-text">
+                                <ul>
+                                    <li>Ședințe de 40 de minute;</li>
+                                    <li> Diverse tipuri de antrenamente: zumba, yoga, aerobică, HIT, pilates,
+                                        Kango-Jumps;
+                                    </li>
+                                    <li>O sală plină de oameni motivați să facă mișcare;</li>
+                                    <li>Posibilitatea de a-ți face noi prieteni;</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <p>Preț: $245/lunar sau $20 o ședință.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-dark h-100">
+                        <img src="imagini/individual.jpg" alt="O femeie făcând streching" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h3 class="card-title pt-3 pb-5" style="color: #EF562E;">Antrenamente individuale:</h3>
+                            <div class="card-text">
+                                <ul>
+                                    <li>Ședințe cu antrenor personal;</li>
+                                    <li>Plan alimentar personalizat și echilibrat;</li>
+                                    <li>Se ține cont de starea ta de sănătate și capacitățile tale;</li>
+                                    <li>Înveți să folosești corect echipamentul și să execuți corect exercițiile pentru
+                                        a
+                                        evita traumele;</li>
+                                    <li>Rezultat garantat în doar câteva luni.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <p>Preț: $300 prima lună, $230 după a doua lună.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-dark h-100">
+                        <img src="imagini/instructor.jpg" alt="Un antrenor cu un megafon" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h3 class="card-title pt-3 pb-5" style="color: #EF562E;"> Pachetul VIP:</h3>
+                            <div class="card-text">
+                                <ul>
+                                    <li>Acces nelimitat la antrenamentele în grup;</li>
+                                    <li>Plan alimentar personalizat;</li>
+                                    <li>Antrenamente individuale flexibile;</li>
+                                    <li>Asistența antrenorului 24/7;</li>
+                                    <li>Rezultate vizibile în cel mai scurt timp.</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <p>Preț: $500 pentru prima lună, $425 după a doua lună.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <div class="card bg-dark h-100">
+                        <img src="imagini/student.jpg" alt="Un cuplu la sală" class="card-img-top">
+                        <div class="card-body text-white">
+                            <h3 class="card-title pt-3 pb-5" style="color: #EF562E;"> Student Pack:</h3>
+                            <div class="card-text">
+                                <ul>
+                                    <li>Disponibil pentru tinerii cu vârsta între 16 și 23 de ani;</li>
+                                    <li>Acces între orele 8:00 – 18:00;</li>
+                                    <li>Utilizarea oricărui echipament;</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <p>Preț: $120 lunar sau $1300 anual.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Beneficii-->
+        <section class="container" id="beneficii">
+            <h2>Beneficii</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex p-5">
+                        <img src="imagini/bicileta.png" class="img-fluid" style="min-width: 150px;">
+                        <p class="ps-4">Sală de forță + cardio, echipată cu cele mai noi utilaje: Benzi de alergat,
+                            biciclete
+                            fitness, biciclete eliptice, stepper</p>
+                    </div>
+                    <div class="d-flex p-5">
+                        <img src="imagini/movement.png" class="img-fluid" style="min-width: 150px;">
+                        <p class="ps-4">Zona de antrenamente în grup, cu spațiu suficient pentru fiecare doritor de a
+                            face
+                            mișcare;</p>
+                    </div>
+                    <div class="d-flex p-5">
+                        <img src="imagini/drink.png" class="img-fluid" style="min-width: 150px;">
+                        <p class="ps-4">Cozy Room, unde poți să-ți tragi răsuflarea savurând o băutura răcoritoare;</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="imagini/jumping.png" alt="O femeie sărind" class="img-fluid pt-5">
+                </div>
+                <div class="col-md-4 pt-5">
+                    <div class="d-flex p-5">
+                        <img src="imagini/locker.png" class="img-fluid" style="min-width: 150px;">
+                        <p class="ps-4">Dulap personal, unde poți fi sigur că lucrurile îți sunt în siguranță, în timpul
+                            antrenamentelor;</p>
+                    </div>
+                    <div class="d-flex p-5">
+                        <img src="imagini/parking.png" class="img-fluid" style="min-width: 150px;">
+                        <p class="ps-4">Parcare atât pentru mașini, cât și pentru biciclete, sau trotinete electrice.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Antrenori-->
+        <section class="container" id="antrenori">
+            <div>
+                <h2>Antrenori</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="card mb-3 me-5" style="max-width: 570px; background-color: #EF562E;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="imagini/woman1.jpg" class="img-fluid rounded-start pt-3" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Eva Maison</h5>
+                                <p class="card-text">Eva e pasionata de Yoga încă din anii de facultate. Așa a ajuns să
+                                    facă mai multe cursuri internaționale, devenind un specialist calificat.</p>
+                                <p class="card-text"><small>Yoga Couch</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-5 me-5" style="max-width: 570px; background-color: #EF562E;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="imagini/man10.jpg" class="img-fluid rounded-start pt-3">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Cristian Omega</h5>
+                                <p class="card-text">Bodybuilding alături de Cristian înseamnă dezvoltarea musculaturii
+                                    printr-o combinație de antrenamente cu greutăți, mărirea numărului de calorii
+                                    consumate și odihnă.</p>
+                                <p class="card-text"><small>Body Building Trainer</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="card mb-3 me-5" style="max-width: 570px; background-color: #EF562E;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="imagini/man15.jpg" class="img-fluid rounded-start pt-3">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Mircea Oituz </h5>
+                                <p class="card-text">Mircea e antrenorul care își dedică tot timpul pentru a te ajuta să
+                                    obții rezultate rapide. Annternametele individuale sunt mai motivaționale, alături
+                                    de el.</p>
+                                <p class="card-text"><small>Antrenor de grup</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3 ms-5 me-5" style="max-width: 570px; background-color: #EF562E;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="imagini/woman2.jpg" class="img-fluid rounded-start pt-3">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body text-dark">
+                                <h5 class="card-title">Emilia Ruiz </h5>
+                                <p class="card-text">Emilia a acceptat să devină antrenatoare YouthIt, pentru că iubește
+                                    mișcarea și disciplina. Asta încercă să le transmită și celor pe care-i antrenează.
+                                </p>
+                                <p class="card-text"><small>Fitness Couch</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimoniale-->
+        <section class="container" id="testimoniale">
+            <h2>Clienți Fericiți</h2>
+            <div class="review">
+                <blockquote class="quote border text-dark">Mi-a plăcut foarte mult la YouthIt. După prima lună de
+                    antrenamente în grup, am trecut la Pachetul VIP și e cea mai bună investiție de până acum. Am
+                    observat primele rezultate după două săptămâni de antrenament și m-am motivat și mai mult.-
+                    <cite>Valeria Berza</cite></blockquote>
+                <blockquote class="quote border text-dark">Ceea ce îmi place cel mai mult la YouthIt este
+                    flexibilitatea. Am ales pachetul Student Pack pentru că îmi place să mă antrenez singur, dar și
+                    pentru că nu mă limitează. Am acces la toate echipamentele de aici și sunt foarte mulțumit de
+                    serviciul de clienți. - <cite>Ciprian Chivu</cite></blockquote>
+            </div>
+        </section>
+    </main>
+
+    <hr style="color: white;">
+
+    <footer class="container" id="contact">
+        <div class="d-flex justify-content-center pb-5">
+            <img src="imagini/logo.png" alt="gantere" class="img-fluid">
+            <h1 style="font-size: 60px;">YouthIt</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4  d-flex justify-content-lg-center">
+                <ul class="list-unstyled">
+                    <li><a href="#desprenoi" class="py-2 d-block">Despre Noi</a></li>
+                    <li><a href="#Servicii" class="py-2 d-block">Servicii</a></li>
+                    <li><a href="#beneficii" class="py-2 d-block">Beneficii</a></li>
+                    <li><a href="#antrenori" class="py-2 d-block">Antrenori</a></li>
+                    <li><a href="#testimoniale" class="py-2 d-block">Testimoniale</a></li>
+                    <li><a href="#contact" class="py-2 d-block">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-white">
+                <h3 class="pb-2">Informații de contact</h3>
+                <div class="d-flex pb-3">
+                    <i class="fa fa-map-marker" style="font-size:36px; color: #EF562E;"></i>
+                    <p class="ps-3 pt-1">str. Strada nr. 1, Cluj-Napoca, România</p>
+                </div>
+                <div class="d-flex pb-3">
+                    <i class="fa fa-envelope" style="font-size:36px; color: #EF562E;"></i>
+                    <p class="ps-3 pt-1">youthit@fitness.com</p>
+                </div>
+                <div class="d-flex pb-3">
+                    <i class="fa fa-phone" style="font-size:36px; color: #EF562E;"></i>
+                    <p class="ps-3 pt-1">0123456789</p>
+                </div>
+
+            </div>
+            <div class="col-md-4 pb-3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87426.01383909782!2d23.546472792422595!3d46.783364286939616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c1f916c0b8b%3A0xbbc601c331f148b!2sCluj-Napoca%2C%20Rom%C3%A2nia!5e0!3m2!1sro!2s!4v1638619479335!5m2!1sro!2s"
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <hr style="color: white;">
+        <div class="d-flex justify-content-center p-3">
+            <p class="copyright text-white">
+                Copyright &copy; YouthIt 2021. All Rights Reserved
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

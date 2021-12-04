@@ -1,0 +1,108 @@
+
+h1, h2 {
+    color: #EF562E;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1 {
+    padding: 10px 0 0 15px;
+}
+
+h2 {
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p, ul, li, a, blockquote {
+    font-family: 'Lora';
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: tomato;
+
+}
+nav ul {
+    padding-right: 25px;
+}
+
+section {
+    padding: 100px 0px;
+}
+
+#Servicii {
+    background-image: url("imagini/cover_servicii.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 99.6px;
+}
+
+div.card:hover {
+    box-shadow: 7px 7px 20px #EF562E;
+}
+
+#beneficii>.row {
+    background-color:#EF562E; 
+    margin: 0px -100px;
+}
+
+.review {
+    max-width: 950px;
+    margin:0 auto;
+    padding: 3rem;
+}
+
+blockquote.border {
+    position: relative; 
+    text-align: center;
+    font-size: 25px;
+    padding: 3rem 1.2rem;
+    margin: 1rem auto 2rem;
+}
+blockquote.border:before,
+blockquote.border:after{
+    font-family: FontAwesome; /*Ghilimele*/
+    position: absolute;
+    color: #EF562E;
+    font-size: 50px;
+}
+blockquote.quote:before{
+    content: "\f10d";
+    top: -12px;
+    margin-right: -20px;
+    right: 100%;
+}
+blockquote.quote:after{
+    content: "\f10e";
+    margin-left: -20px;
+    left: 100%;  
+    top: auto;
+    bottom: -20px;
+}
+blockquote.quote {
+    background-color: #ebebeb;
+    background-size: 20px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 25px 5px 0px 5px;
+    }
+    #Servicii{
+        padding: 25px 5px 0px 5px;
+    }
+    #beneficii>.row {
+        margin: 0;
+    }
+    .card{
+        margin: 0 !important;
+    }
+}
+
