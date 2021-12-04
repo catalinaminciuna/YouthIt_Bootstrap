@@ -104,8 +104,8 @@ blockquote.quote {
     .card{
         margin: 0 !important;
     }
-    blockquote.border{
-        font-size: 25px;
+    blockquote{
+        font-size: 20px;
     }
 }
 
