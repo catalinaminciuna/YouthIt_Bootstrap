@@ -23,7 +23,7 @@ p, ul, li, a, blockquote {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #ebebeb;
 }
 a:hover{
     color: tomato;
@@ -104,7 +104,13 @@ blockquote.quote {
     .card{
         margin: 0 !important;
     }
-    blockquote {
+}
+
+@media only screen and (max-width: 414px) {
+    h2 {
+        font-size: 35px;
+    }
+    p, ul, li, a {
         font-size: 15px;
     }
 }
