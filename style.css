@@ -16,7 +16,9 @@ h2 {
 h3{
     font-size: 30px;
 }
-
+h4 {
+    font-size: 20px;
+}
 p, ul, li, a, blockquote {
     font-family: 'Lora';
     font-size: 18px;
@@ -26,7 +28,7 @@ a {
     color: #ebebeb;
 }
 a:hover{
-    color: tomato;
+    color: #EF562E;
 
 }
 nav ul {
@@ -34,29 +36,48 @@ nav ul {
 }
 
 section {
-    padding: 100px 0px;
+    padding: 50px 0px 50px 0px;
+}
+
+hr {
+    color: white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #Servicii {
     background-image: url("imagini/cover_servicii.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 99.6px;
 }
-
-div.card:hover {
+.card:hover {
     box-shadow: 7px 7px 20px #EF562E;
 }
 
-#beneficii>.row {
-    background-color:#EF562E; 
-    margin: 0px -100px;
+
+.card-title {
+    color: #EF562E;
 }
 
+.icon {
+    width: 150px; height: 150px;
+}
 .review {
     max-width: 1050px;
     margin: 0 auto;
     padding: 3rem;
+}
+
+.antrenori {
+    max-width: 570px;
+     background-color: #EF562E;
+}
+.beneficiu {
+    background-color: #ebebeb;
+    border: 5px solid #212529;
 }
 
 blockquote.border {
@@ -91,15 +112,16 @@ blockquote.quote {
     background-size: 20px 20px;
 }
 
+.contact {
+    font-size:36px; 
+    color: #EF562E;
+}
 @media only screen and (max-width: 768px) {
     .container-fluid {
         padding: 25px 5px 0px 5px;
     }
     #Servicii{
         padding: 25px 5px 0px 5px;
-    }
-    #beneficii>.row {
-        margin: 0;
     }
     .card{
         margin: 0 !important;
